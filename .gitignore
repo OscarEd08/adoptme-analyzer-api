@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+src/__pycache__
+
+# Distribution / packaging
+build/
+dist/
+
+# Environments
+.env
+.venv
+
+# mypy
+.idea/*
