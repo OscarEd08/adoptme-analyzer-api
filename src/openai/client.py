@@ -1,10 +1,9 @@
 import os
 import requests
 
-# Obtener la clave API de OpenAI desde las variables de entorno
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
-def openai_client(url_image: str, max_tokens: int):
+def get_pet_features_client(url_image: str, max_tokens: int):
     print(f"URL de la imagen: {url_image}")
     print(f"Max tokens: {max_tokens}")
     print(f"Clave API de OpenAI: {OPENAI_API_KEY}")
@@ -37,10 +36,5 @@ def openai_client(url_image: str, max_tokens: int):
     }
 
     response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
-
-    # Imprimir la respuesta completa del servidor
-    print(response.status_code)
-    print(response.headers)
-    print(response.text)
 
     return response
