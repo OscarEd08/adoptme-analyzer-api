@@ -1,9 +1,4 @@
 from fastapi import FastAPI
-from dotenv import load_dotenv
-import uvicorn
-
-# Cargar las variables de entorno desde el archivo .env
-load_dotenv()
 
 # Inicializar la aplicación FastAPI
 app = FastAPI()
