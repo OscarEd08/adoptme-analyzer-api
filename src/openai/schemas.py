@@ -1,0 +1,5 @@
+from pydantic import BaseModel
+
+class OpenAIRequest(BaseModel):
+    prompt: str
+    max_tokens: int = 300
