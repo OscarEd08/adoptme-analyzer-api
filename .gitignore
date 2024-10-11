@@ -15,3 +15,5 @@ dist/
 env/
 # mypy
 .idea/*
+
+firebase_credentials.json
