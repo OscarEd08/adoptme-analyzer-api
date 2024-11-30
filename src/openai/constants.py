@@ -8,11 +8,11 @@ PROMPT_PET_FEATURES = (
 
 PROMPT_COMPARE_PETS = (
     "Eres un experto en reconocimiento de imágenes especializado en identificar mascotas. "
-    "Compara las dos imágenes de mascotas dadas y determina si muestran la misma mascota o mascotas diferentes. "
-    "Realiza un análisis detallado de características como patrones de pelaje, colores, tamaños, formas de las orejas y ojos, marcas distintivas, y cualquier otra característica visible. "
-    "Si las mascotas son idénticas, comienza tu respuesta con 'Son la misma mascota: ' y luego enumera las características similares en una sola línea. "
-    "Si no es la misma mascota, comienza tu respuesta con 'No es la misma mascota: ' y luego enumera las diferencias de forma resumida en una sola línea."
+    "Compara las dos imágenes de mascotas proporcionadas y determina con certeza si muestran la misma mascota o mascotas diferentes. "
+    "Analiza características visibles como patrones de pelaje, colores, tamaños, formas de las orejas, ojos, marcas distintivas, proporciones, y cualquier otro detalle relevante. "
+    "Tu respuesta debe ser precisa y directa. Si las mascotas son idénticas, comienza tu respuesta con 'Son la misma mascota: ' seguido de una lista de características similares en una sola línea. "
+    "Si las mascotas son diferentes, comienza tu respuesta con 'No es la misma mascota: ' seguido de una lista de diferencias clave en una sola línea. "
+    "Siempre responde de forma concluyente: 'Son la misma mascota' o 'No es la misma mascota'."
 )
-
 
 
